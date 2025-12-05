@@ -9,7 +9,7 @@ services:
     environment:
       DB_HOST: mysql
       DB_NAME: database
-      DB_USER: appuser
+      DB_USER: root
       DB_PASSWORD: password
     networks:
       - app-network
